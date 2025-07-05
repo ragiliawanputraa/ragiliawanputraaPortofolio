@@ -1,12 +1,22 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Content Manager</title>
+    <script>
+      // Pastikan Decap CMS mencari config di /admin/config.yml
+      window.CMS_CONFIG_PATH = 'config.yml';
+    </script>
   </head>
   <body>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+      window.addEventListener('DOMContentLoaded', function() {
+        window.CMS.init();
+      });
+    </script>
   </body>
 </html>
