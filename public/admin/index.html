@@ -2,12 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>CMS</title>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Content Manager</title>
+    <script>
+      // Paksa Decap CMS membaca config dari /admin/config.yml
+      window.CMS_CONFIG_PATH = "config.yml";
+    </script>
   </head>
   <body>
-    <script>
-      CMS.init();
-    </script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
