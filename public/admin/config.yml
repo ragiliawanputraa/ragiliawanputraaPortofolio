@@ -22,7 +22,7 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-              - { label: "Date", name: "date", widget: "datetime" }
+              - { label: "Date", name: "date", widget: "date" }
               - { label: "Category", name: "category", widget: "string" }
               - { label: "Status", name: "status", widget: "string" }
               - { label: "Technologies", name: "technologies", widget: "list" }
@@ -40,8 +40,8 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Organization", name: "organization", widget: "string" }
-              - { label: "Date", name: "date", widget: "datetime" }
-              - { label: "Valid Until", name: "validUntil", widget: "datetime", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Valid Until", name: "validUntil", widget: "date", required: false }
               - { label: "Category", name: "category", widget: "string" }
               - { label: "Description", name: "description", widget: "text", required: false }
               - { label: "Skills", name: "skills", widget: "list", required: false }

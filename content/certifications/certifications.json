@@ -14,23 +14,6 @@
       "title": "Certified Software Engineer",
       "description": "Certification in software engineering fundamentals and best practices.",
       "category": "Software Engineering"
-    },
-    {
-      "featured": true,
-      "title": "Badan Nasional Sertifikasi Profesi - Programmer",
-      "organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
-      "date": "2024-09-07T00:10:00.000Z",
-      "validUntil": "2026-09-07T00:11:00.000Z",
-      "category": "Programmer",
-      "description": "Sertifikasi ini mengukuhkan kompetensi profesional dalam pengembangan perangkat lunak sesuai dengan standar Badan Nasional Sertifikasi Profesi (BNSP). Ini mencakup keahlian dalam penggunaan spesifikasi program, penulisan kode dengan prinsip guidelines dan best practices, implementasi pemrograman terstruktur dan berorientasi objek, penggunaan library atau komponen pre-existing, penerapan akses basis data, pembuatan dokumen kode program, debugging, serta pelaksanaan pengujian unit program.",
-      "skills": [
-        "[\"Programmer\"",
-        "\"PHP\"",
-        "\"OOP\"",
-        "\"MySQL\"",
-        "\"PhpMyAdmin\"",
-        "\"BlackboxTesting\"]"
-      ]
     }
   ]
 }
