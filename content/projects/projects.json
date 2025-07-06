@@ -1,15 +1,39 @@
 {
   "projects_list": [
     {
-      "title": "Personal Portfolio Website",
-      "description": "A modern portfolio website built with React, Vite, and Tailwind CSS.",
+      "technologies": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "featured": true,
       "date": "2024-06-01",
-      "category": "Web Development",
       "status": "completed",
-      "technologies": ["React", "Vite", "Tailwind CSS", "TypeScript"],
-      "demoLink": "https://your-portfolio.vercel.app",
+      "title": "Ragiliawanputraa's Portofolio Website",
+      "description": "A modern portfolio website built with React, Vite, and Tailwind CSS.",
+      "demoLink": "https://ragiliawanputraa-portofolio.vercel.app/",
       "githubLink": "https://github.com/ragiliawanputraa/ragiliawanputraaPortofolio",
-      "featured": true
+      "category": "Web Development"
+    },
+    {
+      "featured": true,
+      "title": "Sentinova - Summarization & Sentiment Analysis",
+      "description": "Sentinova is a web-based platform for text summarization and sentiment analysis, powered by a custom-trained machine learning system. It automatically processes product reviews to generate concise summaries and detect the sentiment behind the text in a simple, user-friendly interface.",
+      "category": "Web Development, Machine Learning, Natural Language Processing, Data Mining",
+      "status": "completed",
+      "demoLink": "https://sentinova.my.id/",
+      "githubLink": "https://github.com/Sentinova-Summarization-Sentiment",
+      "technologies": [
+        "Hugging Face Transformers",
+        "Python",
+        "Pytorch",
+        "ReactJS",
+        "FastAPI",
+        "Scikit-learn",
+        "preprocessing",
+        "classification"
+      ]
     }
   ]
-} 
+}
