@@ -8,33 +8,42 @@ media_folder: "src/assets/uploads"
 public_folder: "/src/assets/uploads"
 
 collections:
-  - name: "projects"
-    label: "Projects"
-    folder: "content/projects"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Category", name: "category", widget: "string" }
-      - { label: "Status", name: "status", widget: "string" }
-      - { label: "Technologies", name: "technologies", widget: "list" }
-      - { label: "Demo Link", name: "demoLink", widget: "string", required: false }
-      - { label: "GitHub Link", name: "githubLink", widget: "string", required: false }
-      - { label: "Featured", name: "featured", widget: "boolean", default: false }
-  - name: "certifications"
-    label: "Certifications"
-    folder: "content/certifications"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Organization", name: "organization", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Valid Until", name: "validUntil", widget: "datetime", required: false }
-      - { label: "Category", name: "category", widget: "string" }
-      - { label: "Description", name: "description", widget: "text", required: false }
-      - { label: "Skills", name: "skills", widget: "list", required: false }
-      - { label: "Credential Link", name: "credentialLink", widget: "string", required: false }
-      - { label: "Featured", name: "featured", widget: "boolean", default: false } 
+  - name: "content_data"
+    label: "Content Data"
+    files:
+      - file: "content/projects/projects.json"
+        label: "Projects"
+        name: "projects"
+        format: "json"
+        fields:
+          - name: "projects_list"
+            label: "Projects List"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Date", name: "date", widget: "datetime" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Status", name: "status", widget: "string" }
+              - { label: "Technologies", name: "technologies", widget: "list" }
+              - { label: "Demo Link", name: "demoLink", widget: "string", required: false }
+              - { label: "GitHub Link", name: "githubLink", widget: "string", required: false }
+              - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - file: "content/certifications/certifications.json"
+        label: "Certifications"
+        name: "certifications"
+        format: "json"
+        fields:
+          - name: "certifications_list"
+            label: "Certifications List"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Organization", name: "organization", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime" }
+              - { label: "Valid Until", name: "validUntil", widget: "datetime", required: false }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Skills", name: "skills", widget: "list", required: false }
+              - { label: "Credential Link", name: "credentialLink", widget: "string", required: false }
+              - { label: "Featured", name: "featured", widget: "boolean", default: false } 

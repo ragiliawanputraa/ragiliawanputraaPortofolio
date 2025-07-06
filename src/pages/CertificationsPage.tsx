@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { Certification } from '../types';
+import { Certification, CertificationsData } from '../types';
 import CertificationItem from '../components/CertificationItem';
 import { Search, Filter, TrendingUp, Award, Target, CheckCircle } from 'lucide-react';
-import certificationsData from '../../content/certifications/certifications.json';
+import certificationsDataRaw from '../../content/certifications/certifications.json';
+
+const certificationsData: CertificationsData = certificationsDataRaw as CertificationsData;
 
 const CertificationsPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -10,14 +12,17 @@ const CertificationsPage: React.FC = () => {
   const [sortBy, setSortBy] = useState<string>('date');
 
   // Ensure all certifications have an id (use title as fallback)
-  const allCertifications: Certification[] = (certificationsData as any[]).map((c, idx) => ({
+  const allCertifications: Certification[] = certificationsData.certifications_list.map((c, idx) => ({
     id: c.id || c.title || String(idx),
-    description: c.description || '',
-    validUntil: c.validUntil || '',
-    skills: c.skills || [],
+    title: c.title,
+    organization: c.organization,
+    date: c.date,
     credentialLink: c.credentialLink || '',
-    featured: c.featured || false,
-    ...c,
+    category: c.category,
+    featured: c.featured,
+    description: c.description || '',
+    skills: c.skills || [],
+    validUntil: c.validUntil || '',
   }));
 
   const categories = ['all', ...Array.from(new Set(allCertifications.map(c => c.category)))];

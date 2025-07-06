@@ -1,22 +1,27 @@
 import React from 'react';
 import CertificationItem from './CertificationItem';
-import { Certification } from '../types';
+import { Certification, CertificationsData } from '../types';
 import { Award, ArrowRight } from 'lucide-react';
-import certificationsData from '../../content/certifications/certifications.json';
+import certificationsDataRaw from '../../content/certifications/certifications.json';
+
+const certificationsData: CertificationsData = certificationsDataRaw as CertificationsData;
 
 interface CertificationPreviewProps {
   onNavigateToCertifications: () => void;
 }
 
 const CertificationPreview: React.FC<CertificationPreviewProps> = ({ onNavigateToCertifications }) => {
-  const allCertifications: Certification[] = (certificationsData as any[]).map((c, idx) => ({
+  const allCertifications: Certification[] = certificationsData.certifications_list.map((c, idx) => ({
     id: c.id || c.title || String(idx),
-    description: c.description || '',
-    validUntil: c.validUntil || '',
-    skills: c.skills || [],
+    title: c.title,
+    organization: c.organization,
+    date: c.date,
     credentialLink: c.credentialLink || '',
-    featured: c.featured || false,
-    ...c,
+    category: c.category,
+    featured: c.featured,
+    description: c.description || '',
+    skills: c.skills || [],
+    validUntil: c.validUntil || '',
   }));
   const featuredCertifications = allCertifications.filter((cert) => cert.featured);
 

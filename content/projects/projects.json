@@ -1,13 +1,15 @@
-[
-  {
-    "title": "Personal Portfolio Website",
-    "description": "A modern portfolio website built with React, Vite, and Tailwind CSS.",
-    "date": "2024-06-01",
-    "category": "Web Development",
-    "status": "completed",
-    "technologies": ["React", "Vite", "Tailwind CSS", "TypeScript"],
-    "demoLink": "https://your-portfolio.vercel.app",
-    "githubLink": "https://github.com/ragiliawanputraa/ragiliawanputraaPortofolio",
-    "featured": true
-  }
-] 
+{
+  "projects_list": [
+    {
+      "title": "Personal Portfolio Website",
+      "description": "A modern portfolio website built with React, Vite, and Tailwind CSS.",
+      "date": "2024-06-01",
+      "category": "Web Development",
+      "status": "completed",
+      "technologies": ["React", "Vite", "Tailwind CSS", "TypeScript"],
+      "demoLink": "https://your-portfolio.vercel.app",
+      "githubLink": "https://github.com/ragiliawanputraa/ragiliawanputraaPortofolio",
+      "featured": true
+    }
+  ]
+} 

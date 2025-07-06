@@ -1,13 +1,15 @@
-[
-  {
-    "title": "Certified Software Engineer",
-    "organization": "CEP CCIT-FTUI",
-    "date": "2024-01-01",
-    "validUntil": "2026-01-01",
-    "category": "Software Engineering",
-    "description": "Certification in software engineering fundamentals and best practices.",
-    "skills": ["Software Engineering", "Java", "OOP"],
-    "credentialLink": "https://example.com/cert/123",
-    "featured": true
-  }
-] 
+{
+  "certifications_list": [
+    {
+      "title": "Certified Software Engineer",
+      "organization": "CEP CCIT-FTUI",
+      "date": "2024-01-01",
+      "validUntil": "2026-01-01",
+      "category": "Software Engineering",
+      "description": "Certification in software engineering fundamentals and best practices.",
+      "skills": ["Software Engineering", "Java", "OOP"],
+      "credentialLink": "https://example.com/cert/123",
+      "featured": true
+    }
+  ]
+} 

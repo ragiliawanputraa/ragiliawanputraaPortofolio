@@ -1,20 +1,29 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import { Project } from '../types';
+import { Project, ProjectsData } from '../types';
 import { Code, ArrowRight } from 'lucide-react';
-import projectsData from '../../content/projects/projects.json';
+import projectsDataRaw from '../../content/projects/projects.json';
+
+const projectsData: ProjectsData = projectsDataRaw as ProjectsData;
 
 interface ProjectsPreviewProps {
   onNavigateToProjects: () => void;
 }
 
 const ProjectsPreview: React.FC<ProjectsPreviewProps> = ({ onNavigateToProjects }) => {
-  const allProjects: Project[] = (projectsData as any[]).map((p, idx) => ({
+  const allProjects: Project[] = projectsData.projects_list.map((p, idx) => ({
     id: p.id || p.title || String(idx),
+    title: p.title,
+    description: p.description,
     longDescription: p.longDescription || p.description || '',
+    technologies: p.technologies,
+    category: p.category,
+    demoLink: p.demoLink,
+    githubLink: p.githubLink,
+    featured: p.featured,
+    date: p.date,
     status: p.status || 'completed',
     image: p.image || '',
-    ...p,
   }));
   const featuredProjects = allProjects.filter((project) => project.featured);
 

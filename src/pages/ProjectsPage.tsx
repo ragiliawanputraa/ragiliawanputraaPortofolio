@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { Project } from '../types';
+import { Project, ProjectsData } from '../types';
 import ProjectCard from '../components/ProjectCard';
 import { Search, Filter, TrendingUp, Code } from 'lucide-react';
-import projectsData from '../../content/projects/projects.json';
+import projectsDataRaw from '../../content/projects/projects.json';
+
+const projectsData: ProjectsData = projectsDataRaw as ProjectsData;
 
 const ProjectsPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -10,12 +12,19 @@ const ProjectsPage: React.FC = () => {
   const [sortBy, setSortBy] = useState<string>('date');
 
   // Ensure all projects have an id (use title as fallback)
-  const allProjects: Project[] = (projectsData as any[]).map((p, idx) => ({
+  const allProjects: Project[] = projectsData.projects_list.map((p, idx) => ({
     id: p.id || p.title || String(idx),
+    title: p.title,
+    description: p.description,
     longDescription: p.longDescription || p.description || '',
+    technologies: p.technologies,
+    category: p.category,
+    demoLink: p.demoLink,
+    githubLink: p.githubLink,
+    featured: p.featured,
+    date: p.date,
     status: p.status || 'completed',
     image: p.image || '',
-    ...p,
   }));
 
   const categories = ['all', ...Array.from(new Set(allProjects.map(p => p.category)))];

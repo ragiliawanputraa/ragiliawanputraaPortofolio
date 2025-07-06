@@ -24,4 +24,12 @@ export interface Certification {
   description: string;
   skills: string[];
   validUntil?: string;
+}
+
+export interface ProjectsData {
+  projects_list: Project[];
+}
+
+export interface CertificationsData {
+  certifications_list: Certification[];
 } 
