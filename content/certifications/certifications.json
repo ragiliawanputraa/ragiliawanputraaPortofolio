@@ -1,15 +1,36 @@
 {
   "certifications_list": [
     {
-      "title": "Certified Software Engineer",
-      "organization": "CEP CCIT-FTUI",
-      "date": "2024-01-01",
+      "skills": [
+        "Software Engineering",
+        "Java",
+        "OOP"
+      ],
       "validUntil": "2026-01-01",
-      "category": "Software Engineering",
-      "description": "Certification in software engineering fundamentals and best practices.",
-      "skills": ["Software Engineering", "Java", "OOP"],
+      "featured": true,
+      "date": "2024-01-01",
       "credentialLink": "https://example.com/cert/123",
-      "featured": true
+      "organization": "CEP CCIT-FTUI",
+      "title": "Certified Software Engineer",
+      "description": "Certification in software engineering fundamentals and best practices.",
+      "category": "Software Engineering"
+    },
+    {
+      "featured": true,
+      "title": "Badan Nasional Sertifikasi Profesi - Programmer",
+      "organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+      "date": "2024-09-07T00:10:00.000Z",
+      "validUntil": "2026-09-07T00:11:00.000Z",
+      "category": "Programmer",
+      "description": "Sertifikasi ini mengukuhkan kompetensi profesional dalam pengembangan perangkat lunak sesuai dengan standar Badan Nasional Sertifikasi Profesi (BNSP). Ini mencakup keahlian dalam penggunaan spesifikasi program, penulisan kode dengan prinsip guidelines dan best practices, implementasi pemrograman terstruktur dan berorientasi objek, penggunaan library atau komponen pre-existing, penerapan akses basis data, pembuatan dokumen kode program, debugging, serta pelaksanaan pengujian unit program.",
+      "skills": [
+        "[\"Programmer\"",
+        "\"PHP\"",
+        "\"OOP\"",
+        "\"MySQL\"",
+        "\"PhpMyAdmin\"",
+        "\"BlackboxTesting\"]"
+      ]
     }
   ]
-} 
+}
