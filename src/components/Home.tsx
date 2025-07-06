@@ -21,20 +21,17 @@ const Home: React.FC = () => {
                 </span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-                An informatics student who is passionate and curious about technology and software development.
+              An Informatics Engineering student from Politeknik Negeri Jakarta who's passionate about building things with code.
               </p>
             </div>
             
             <div className="prose prose-lg text-gray-500 dark:text-gray-400 space-y-4">
+              <p className="text-gray-900 dark:text-white font-bold">Welcome to my portfolio !</p>
               <p>
-                Welcome to my portfolio! I'm currently studying Informatics Engineering at Politeknik Negeri Jakarta, 
-                where I'm building my foundation in computer science and software development. I love exploring new 
-                technologies, solving complex problems, and creating innovative solutions that make a difference.
+                I enjoy creating useful digital solutions, from designing clean interfaces to integrating machine learning into real-world applications. I'm always curious about how things work and love diving into new technologies.
               </p>
               <p>
-                My journey in technology is driven by curiosity and a desire to continuously learn and grow. 
-                I believe that great software is built through understanding both the technical challenges and 
-                the human needs behind every project.
+                Feel free to explore my website to see some of the projects I've worked on!
               </p>
             </div>
 

@@ -60,15 +60,17 @@ const Contact: React.FC = () => {
               <a
                 key={index}
                 href={contact.link}
-                className="bg-gray-50 dark:bg-gray-900/50 dark:backdrop-blur-sm rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 border border-gray-200 dark:border-gray-800 hover:border-amber-500/50 dark:hover:border-amber-400/30 animate-fade-in-up"
+                className="bg-gray-50 dark:bg-gray-900/50 dark:backdrop-blur-sm rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 border border-gray-200 dark:border-gray-800 hover:border-amber-500/50 dark:hover:border-amber-400/30 animate-fade-in-up flex flex-col min-h-[100px]"
               >
-                <div className="flex items-center space-x-4">
-                  <div className={`p-3 rounded-full bg-gray-200 dark:bg-gray-800 ${contact.color}`}>
+                <div className="flex items-start space-x-4">
+                  <div className={`p-3 rounded-full bg-gray-200 dark:bg-gray-800 ${contact.color} flex-shrink-0 mt-1`}>
                     <Icon size={24} />
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white">{contact.name}</h3>
-                    <p className="text-gray-500 dark:text-gray-400">{contact.value}</p>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-semibold text-gray-900 dark:text-white mb-1">{contact.name}</h3>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 break-all leading-relaxed">
+                      {contact.value}
+                    </p>
                   </div>
                 </div>
               </a>
@@ -84,7 +86,7 @@ const Contact: React.FC = () => {
               Whether you have a project in mind or just want to chat about technology, feel free to reach out!
             </p>
             <a
-              href="mailto:ragiliawan@example.com"
+              href="mailto:ragiliawanputraa@gmail.com"
               className="inline-flex items-center px-6 py-3 bg-gray-900 text-white dark:bg-black dark:text-white rounded-lg hover:bg-gray-800 dark:hover:bg-gray-700 transition-colors duration-200 font-medium"
             >
               <Mail size={20} className="mr-2" />
@@ -97,4 +99,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact; 
+export default Contact;

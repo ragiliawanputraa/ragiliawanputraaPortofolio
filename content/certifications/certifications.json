@@ -1,19 +1,74 @@
 {
   "certifications_list": [
     {
-      "skills": [
-        "Software Engineering",
-        "Java",
-        "OOP"
-      ],
-      "validUntil": "2026-01-01",
-      "featured": true,
-      "date": "2024-01-01",
-      "credentialLink": "https://example.com/cert/123",
-      "organization": "CEP CCIT-FTUI",
-      "title": "Certified Software Engineer",
+      "title": "CCIT FTUI - Certified Software Engineer",
+      "organization": "Continuing Education Program - Center for Computing and Information Technology Faculty of Engineering Universitas Indonesia",
+      "date": "2024-11-01",
+      "category": "Software Engineering",
       "description": "Certification in software engineering fundamentals and best practices.",
-      "category": "Software Engineering"
+      "skills": [
+        "Software Development",
+        "MySQL",
+        "Cloud Computing",
+        "Information Technology",
+        "Programming",
+        "Mobile Developer",
+        "Web Design",
+        "HTML",
+        "CSS",
+        "Github"
+      ],
+      "credentialLink": "https://example.com/cert/123",
+      "featured": true
+    },
+    {
+      "title": "CCIT – NIIT Certificate of Professional Program - Software Engineering, Java Technologies",
+      "organization": "NIIT",
+      "date": "2025-03-01",
+      "category": "Software Engineering",
+      "description": "Professional program focusing on Software Engineering and Java technologies.",
+      "skills": [
+        "Java",
+        "OOP",
+        "Software Engineering",
+        "Programming"
+      ],
+      "credentialLink": "",
+      "featured": false
+    },
+    {
+      "title": "Badan Nasional Sertifikasi Profesi - Programmer",
+      "organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+      "date": "2024-09-01",
+      "validUntil": "2026-09-01",
+      "category": "Programming",
+      "description": "Sertifikasi ini mengukuhkan kompetensi profesional dalam pengembangan perangkat lunak sesuai dengan standar Badan Nasional Sertifikasi Profesi (BNSP). Ini mencakup keahlian dalam penggunaan spesifikasi program, penulisan kode dengan prinsip guidelines dan best practices, implementasi pemrograman terstruktur dan berorientasi objek, penggunaan library atau komponen pre-existing, penerapan akses basis data, pembuatan dokumen kode program, debugging, serta pelaksanaan pengujian unit program.",
+      "skills": [
+        "PHP",
+        "PhpMyAdmin",
+        "MySQL",
+        "OOP",
+        "Database",
+        "CRUD"
+      ],
+      "credentialLink": "",
+      "featured": true
+    },
+    {
+      "title": "Certification in Bangkit - Mobile Development",
+      "organization": "Bangkit led by Google, Goto, and Traveloka",
+      "date": "2025-01-01",
+      "category": "Mobile Development",
+      "description": "Intensive certification program in mobile application development.",
+      "skills": [
+        "Mobile Application Development",
+        "Android Studio",
+        "Android SDK",
+        "Kotlin",
+        "Kotlin Coroutines"
+      ],
+      "credentialLink": "",
+      "featured": false
     }
   ]
 }
