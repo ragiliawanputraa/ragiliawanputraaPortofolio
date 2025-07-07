@@ -15,7 +15,7 @@
       ],
       "featured": true,
       "date": "2024-11-01",
-      "credentialLink": "https://example.com/cert/123",
+      "credentialLink": "https://drive.google.com/file/d/1hRkdJkZo6UkadMtGL_s8VE5iyLp9fHnG/view?usp=sharing",
       "organization": "Continuing Education Program - Center for Computing and Information Technology Faculty of Engineering Universitas Indonesia",
       "title": "CCIT FTUI - Certified Software Engineer",
       "image": "/uploads/ccitsertif.png",
@@ -31,7 +31,7 @@
       ],
       "featured": false,
       "date": "2025-03-01",
-      "credentialLink": "",
+      "credentialLink": "https://drive.google.com/file/d/16BqWp7PpFH3ock98DW8A9f0u0Mc5mqUx/view?usp=sharing",
       "organization": "NIIT",
       "title": "CCIT – NIIT Certificate of Professional Program - Software Engineering, Java Technologies",
       "image": "/uploads/niitsertif.png",
@@ -50,7 +50,7 @@
       "validUntil": "2026-09-01",
       "featured": true,
       "date": "2024-09-01",
-      "credentialLink": "",
+      "credentialLink": "https://drive.google.com/file/d/1FTNQT3-FHqzMEpK9JovGGZ3P7NFfCs6K/view?usp=sharing",
       "organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
       "title": "Badan Nasional Sertifikasi Profesi - Programmer",
       "image": "/uploads/bnspsertif.png",
@@ -67,12 +67,25 @@
       ],
       "featured": false,
       "date": "2025-01-01",
-      "credentialLink": "",
+      "credentialLink": "https://drive.google.com/file/d/1hO5e44sdHHC4y7Brh_PyNACRD1RPsVcT/view?usp=sharing",
       "organization": "Bangkit led by Google, Goto, and Traveloka",
       "title": "Certification in Bangkit - Mobile Development",
       "image": "/uploads/bangkitsertif.png",
       "description": "Intensive certification program in mobile application development.",
       "category": "Mobile Development"
+    },
+    {
+      "featured": false,
+      "title": "MSIB - Studi Independen - Kampus Merdeka",
+      "organization": "MSIB - Kampus Merdeka",
+      "description": "Selected as a cohort of the Bangkit Academy, a Kampus Merdeka Independent Study program led by Google, GoTo, and Traveloka, hosted by Dicoding Indonesia.\nThis program provided industry-level training focused on machine learning, cloud computing, and mobile development, combining technical skills, soft skills, and capstone project experience. Through this program, I gained practical expertise and prepared myself for a tech industry career.",
+      "category": "Mobile Development",
+      "skills": [
+        "Android",
+        "Kotlin"
+      ],
+      "credentialLink": "https://drive.google.com/file/d/1a8j0zicZYAYSPFA0gqSjemZiTiqxx-Z8/view?usp=sharing",
+      "image": "/uploads/stupen.png"
     }
   ]
 }
