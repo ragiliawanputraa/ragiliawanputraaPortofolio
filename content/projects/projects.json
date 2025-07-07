@@ -34,6 +34,21 @@
         "preprocessing",
         "classification"
       ]
+    },
+    {
+      "featured": true,
+      "title": "NutriRate's Food Grading App",
+      "description": "NutriRate is an app that uses machine-learning to rate food based on their nutritional values, ranging from A to D.\n\nOur team made our app with the vision of raising Indonesia’s public awareness of the healthiness of items they are consuming, by simplifying nutritional values into grades.",
+      "category": "Mobile Application",
+      "status": "completed",
+      "technologies": [
+        "Kotlin",
+        "Machine-Learning",
+        "Cloud-Computing",
+        "Text-Recognition"
+      ],
+      "demoLink": "https://www.canva.com/design/DAGZRKm-yYY/cBf8kuJ5iUl7tpSwn7ty2A/view?utm_content=DAGZRKm-yYY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdaf6f7f6ee",
+      "githubLink": "https://github.com/NutriRate-Bangkit"
     }
   ]
 }
