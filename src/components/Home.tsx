@@ -67,8 +67,10 @@ const Home: React.FC = () => {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown className="text-amber-500 dark:text-amber-400" size={32} />
+        <div className="pt-20 text-center">
+            <a href="#about" aria-label="Scroll to next section" className="inline-block animate-bounce cursor-pointer">
+                <ChevronDown className="text-amber-500 dark:text-amber-400" size={32} />
+            </a>
         </div>
       </div>
     </section>
