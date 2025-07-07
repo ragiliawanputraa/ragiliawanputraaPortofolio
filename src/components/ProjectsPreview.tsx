@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import { Project, ProjectsData } from '../types';
-import { Code, ArrowRight, GitPullRequest } from 'lucide-react';
+import {ArrowRight, GitPullRequest } from 'lucide-react';
 import projectsDataRaw from '../../content/projects/projects.json';
 
 const projectsData: ProjectsData = projectsDataRaw as ProjectsData;

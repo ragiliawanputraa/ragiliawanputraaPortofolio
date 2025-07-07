@@ -1,31 +1,27 @@
 {
   "projects_list": [
     {
+      "title": "Ragiliawanputraa's Portofolio Website",
+      "image": "/src/assets/uploads/portfolio.png",
+      "description": "A modern portfolio website built with React, Vite, and Tailwind CSS.",
+      "category": "Web Development",
+      "status": "completed",
       "technologies": [
         "React",
         "Vite",
         "Tailwind CSS",
         "TypeScript"
       ],
-      "featured": true,
-      "status": "completed",
-      "title": "Ragiliawanputraa's Portofolio Website",
-      "image": "/src/assets/uploads/screenshot-2025-07-07-144406.png",
-      "description": "A modern portfolio website built with React, Vite, and Tailwind CSS.",
-      "image": "/src/assets/projects/portfolio.png",
       "demoLink": "https://ragiliawanputraa-portofolio.vercel.app/",
       "githubLink": "https://github.com/ragiliawanputraa/ragiliawanputraaPortofolio",
-      "category": "Web Development"
+      "featured": true
     },
     {
-      "featured": true,
       "title": "Sentinova - Summarization & Sentiment Analysis",
+      "image": "/src/assets/uploads/sentinova.png",
       "description": "Sentinova is a web-based platform for text summarization and sentiment analysis, powered by a custom-trained machine learning system. It automatically processes product reviews to generate concise summaries and detect the sentiment behind the text in a simple, user-friendly interface.",
       "category": "Web Development, Machine Learning, Natural Language Processing, Data Mining",
-      "image": "/src/assets/projects/sentinova.png",
       "status": "completed",
-      "demoLink": "https://sentinova.my.id/",
-      "githubLink": "https://github.com/Sentinova-Summarization-Sentiment",
       "technologies": [
         "Hugging Face Transformers",
         "Python",
@@ -36,34 +32,25 @@
         "preprocessing",
         "classification"
       ],
-      "featured": true,
-      "title": "NutriRate's Food Grading App",
-      "description": "NutriRate is an app that uses machine-learning to rate food based on their nutritional values, ranging from A to D.\n\nOur team made our app with the vision of raising Indonesia's public awareness of the healthiness of items they are consuming, by simplifying nutritional values into grades.",
-      "category": "Mobile Application",
-      "image": "/src/assets/projects/nutrirate.png",
-      "status": "completed",
-      "title": "Sentinova - Summarization & Sentiment Analysis",
-      "image": "/src/assets/uploads/screenshot-2025-07-07-144543.png",
-      "description": "Sentinova is a web-based platform for text summarization and sentiment analysis, powered by a custom-trained machine learning system. It automatically processes product reviews to generate concise summaries and detect the sentiment behind the text in a simple, user-friendly interface.",
       "demoLink": "https://sentinova.my.id/",
       "githubLink": "https://github.com/Sentinova-Summarization-Sentiment",
-      "category": "Web Development, Machine Learning, Natural Language Processing, Data Mining"
+      "featured": true
     },
     {
+      "title": "NutriRate's Food Grading App",
+      "image": "/src/assets/uploads/nutrirate.png",
+      "description": "NutriRate is an app that uses machine-learning to rate food based on their nutritional values, ranging from A to D.\n\nOur team made our app with the vision of raising Indonesia's public awareness of the healthiness of items they are consuming, by simplifying nutritional values into grades.",
+      "category": "Mobile Application",
+      "status": "completed",
       "technologies": [
         "Kotlin",
         "Machine-Learning",
         "Cloud-Computing",
         "Text-Recognition"
       ],
-      "featured": true,
-      "status": "completed",
-      "title": "NutriRate's Food Grading App",
-      "image": "/src/assets/uploads/nutrirate.png",
-      "description": "NutriRate is an app that uses machine-learning to rate food based on their nutritional values, ranging from A to D.\n\nOur team made our app with the vision of raising Indonesia’s public awareness of the healthiness of items they are consuming, by simplifying nutritional values into grades.",
       "demoLink": "https://www.canva.com/design/DAGZRKm-yYY/cBf8kuJ5iUl7tpSwn7ty2A/view?utm_content=DAGZRKm-yYY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdaf6f7f6ee",
       "githubLink": "https://github.com/NutriRate-Bangkit",
-      "category": "Mobile Application"
+      "featured": true
     }
   ]
 }
