@@ -22,6 +22,7 @@ const CertificationPreview: React.FC<CertificationPreviewProps> = ({ onNavigateT
     description: c.description || '',
     skills: c.skills || [],
     validUntil: c.validUntil || '',
+    image: c.image || '',
   }));
   const featuredCertifications = allCertifications.filter((cert) => cert.featured);
 

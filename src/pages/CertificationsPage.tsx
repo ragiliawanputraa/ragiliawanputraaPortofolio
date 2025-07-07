@@ -23,6 +23,7 @@ const CertificationsPage: React.FC = () => {
     description: c.description || '',
     skills: c.skills || [],
     validUntil: c.validUntil || '',
+    image: c.image || '',
   }));
 
   const categories = ['all', ...Array.from(new Set(allCertifications.map(c => c.category)))];
