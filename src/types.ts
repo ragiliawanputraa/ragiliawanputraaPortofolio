@@ -24,6 +24,7 @@ export interface Certification {
   description: string;
   skills: string[];
   validUntil?: string;
+  image?: string;
 }
 
 export interface ProjectsData {
