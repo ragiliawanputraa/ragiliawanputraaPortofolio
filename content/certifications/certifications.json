@@ -1,12 +1,6 @@
 {
   "certifications_list": [
     {
-      "title": "CCIT FTUI - Certified Software Engineer",
-      "organization": "Continuing Education Program - Center for Computing and Information Technology Faculty of Engineering Universitas Indonesia",
-      "date": "2024-11-01",
-      "category": "Software Engineering",
-      "description": "Certification in software engineering fundamentals and best practices.",
-      "image": "/uploads/ccit-sertif.png",
       "skills": [
         "Software Development",
         "MySQL",
@@ -19,33 +13,32 @@
         "CSS",
         "Github"
       ],
+      "featured": true,
+      "date": "2024-11-01",
       "credentialLink": "https://example.com/cert/123",
-      "featured": true
+      "organization": "Continuing Education Program - Center for Computing and Information Technology Faculty of Engineering Universitas Indonesia",
+      "title": "CCIT FTUI - Certified Software Engineer",
+      "image": "/uploads/ccitsertif.png",
+      "description": "Certification in software engineering fundamentals and best practices.",
+      "category": "Software Engineering"
     },
     {
-      "title": "CCIT – NIIT Certificate of Professional Program - Software Engineering, Java Technologies",
-      "organization": "NIIT",
-      "date": "2025-03-01",
-      "category": "Software Engineering",
-      "description": "Professional program focusing on Software Engineering and Java technologies.",
-      "image": "/uploads/niit-sertif.png",
       "skills": [
         "Java",
         "OOP",
         "Software Engineering",
         "Programming"
       ],
+      "featured": false,
+      "date": "2025-03-01",
       "credentialLink": "",
-      "featured": false
+      "organization": "NIIT",
+      "title": "CCIT – NIIT Certificate of Professional Program - Software Engineering, Java Technologies",
+      "image": "/uploads/niitsertif.png",
+      "description": "Professional program focusing on Software Engineering and Java technologies.",
+      "category": "Software Engineering"
     },
     {
-      "title": "Badan Nasional Sertifikasi Profesi - Programmer",
-      "organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
-      "date": "2024-09-01",
-      "validUntil": "2026-09-01",
-      "category": "Programming",
-      "description": "Sertifikasi ini mengukuhkan kompetensi profesional dalam pengembangan perangkat lunak sesuai dengan standar Badan Nasional Sertifikasi Profesi (BNSP). Ini mencakup keahlian dalam penggunaan spesifikasi program, penulisan kode dengan prinsip guidelines dan best practices, implementasi pemrograman terstruktur dan berorientasi objek, penggunaan library atau komponen pre-existing, penerapan akses basis data, pembuatan dokumen kode program, debugging, serta pelaksanaan pengujian unit program.",
-      "image": "/uploads/bnsp-sertif.png",
       "skills": [
         "PHP",
         "PhpMyAdmin",
@@ -54,16 +47,17 @@
         "Database",
         "CRUD"
       ],
+      "validUntil": "2026-09-01",
+      "featured": true,
+      "date": "2024-09-01",
       "credentialLink": "",
-      "featured": true
+      "organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+      "title": "Badan Nasional Sertifikasi Profesi - Programmer",
+      "image": "/uploads/bnspsertif.png",
+      "description": "Sertifikasi ini mengukuhkan kompetensi profesional dalam pengembangan perangkat lunak sesuai dengan standar Badan Nasional Sertifikasi Profesi (BNSP). Ini mencakup keahlian dalam penggunaan spesifikasi program, penulisan kode dengan prinsip guidelines dan best practices, implementasi pemrograman terstruktur dan berorientasi objek, penggunaan library atau komponen pre-existing, penerapan akses basis data, pembuatan dokumen kode program, debugging, serta pelaksanaan pengujian unit program.",
+      "category": "Programming"
     },
     {
-      "title": "Certification in Bangkit - Mobile Development",
-      "organization": "Bangkit led by Google, Goto, and Traveloka",
-      "date": "2025-01-01",
-      "category": "Mobile Development",
-      "description": "Intensive certification program in mobile application development.",
-      "image": "/uploads/bangkit-sertif.png",
       "skills": [
         "Mobile Application Development",
         "Android Studio",
@@ -71,8 +65,14 @@
         "Kotlin",
         "Kotlin Coroutines"
       ],
+      "featured": false,
+      "date": "2025-01-01",
       "credentialLink": "",
-      "featured": false
+      "organization": "Bangkit led by Google, Goto, and Traveloka",
+      "title": "Certification in Bangkit - Mobile Development",
+      "image": "/uploads/bangkitsertif.png",
+      "description": "Intensive certification program in mobile application development.",
+      "category": "Mobile Development"
     }
   ]
 }
