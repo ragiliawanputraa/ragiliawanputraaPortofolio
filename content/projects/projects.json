@@ -2,7 +2,7 @@
   "projects_list": [
     {
       "title": "Ragiliawanputraa's Portofolio Website",
-      "image": "/src/assets/uploads/portofolio.png",
+      "image": "/uploads/portofolio.png",
       "description": "A modern portfolio website built with React, Vite, and Tailwind CSS.",
       "category": "Web Development",
       "status": "completed",
@@ -18,7 +18,7 @@
     },
     {
       "title": "Sentinova - Summarization & Sentiment Analysis",
-      "image": "/src/assets/uploads/sentinovaweb.png",
+      "image": "/uploads/sentinovaweb.png",
       "description": "Sentinova is a web-based platform for text summarization and sentiment analysis, powered by a custom-trained machine learning system. It automatically processes product reviews to generate concise summaries and detect the sentiment behind the text in a simple, user-friendly interface.",
       "category": "Web Development, Machine Learning, Natural Language Processing, Data Mining",
       "status": "completed",
@@ -38,7 +38,7 @@
     },
     {
       "title": "NutriRate's Food Grading App",
-      "image": "/src/assets/uploads/nutrirate.png",
+      "image": "/uploads/nutrirate.png",
       "description": "NutriRate is an app that uses machine-learning to rate food based on their nutritional values, ranging from A to D.\n\nOur team made our app with the vision of raising Indonesia's public awareness of the healthiness of items they are consuming, by simplifying nutritional values into grades.",
       "category": "Mobile Application",
       "status": "completed",
