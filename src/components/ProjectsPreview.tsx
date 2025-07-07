@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import { Project, ProjectsData } from '../types';
-import { Code, ArrowRight } from 'lucide-react';
+import { Code, ArrowRight, GitPullRequest } from 'lucide-react';
 import projectsDataRaw from '../../content/projects/projects.json';
 
 const projectsData: ProjectsData = projectsDataRaw as ProjectsData;
@@ -53,8 +53,8 @@ const ProjectsPreview: React.FC<ProjectsPreviewProps> = ({ onNavigateToProjects 
               onClick={onNavigateToProjects}
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-amber-500 to-yellow-400 text-white dark:text-black rounded-lg hover:from-amber-400 hover:to-yellow-300 transition-all duration-300 font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
-              <Code size={24} className="mr-3" />
-              Explore All Projects
+              <GitPullRequest size={24} className="mr-3" />
+              You can see my complete project list here!
               <ArrowRight size={20} className="ml-3" />
             </button>
           </div>

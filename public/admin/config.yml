@@ -21,6 +21,7 @@ collections:
             widget: "list"
             fields:
               - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", required: false }
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Date", name: "date", widget: "date" }
               - { label: "Category", name: "category", widget: "string" }

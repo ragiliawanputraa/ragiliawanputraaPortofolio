@@ -8,10 +8,10 @@
         "TypeScript"
       ],
       "featured": true,
-      "date": "2024-06-01",
       "status": "completed",
       "title": "Ragiliawanputraa's Portofolio Website",
       "description": "A modern portfolio website built with React, Vite, and Tailwind CSS.",
+      "image": "/src/assets/projects/portfolio.png",
       "demoLink": "https://ragiliawanputraa-portofolio.vercel.app/",
       "githubLink": "https://github.com/ragiliawanputraa/ragiliawanputraaPortofolio",
       "category": "Web Development"
@@ -21,6 +21,7 @@
       "title": "Sentinova - Summarization & Sentiment Analysis",
       "description": "Sentinova is a web-based platform for text summarization and sentiment analysis, powered by a custom-trained machine learning system. It automatically processes product reviews to generate concise summaries and detect the sentiment behind the text in a simple, user-friendly interface.",
       "category": "Web Development, Machine Learning, Natural Language Processing, Data Mining",
+      "image": "/src/assets/projects/sentinova.png",
       "status": "completed",
       "demoLink": "https://sentinova.my.id/",
       "githubLink": "https://github.com/Sentinova-Summarization-Sentiment",
@@ -38,8 +39,9 @@
     {
       "featured": true,
       "title": "NutriRate's Food Grading App",
-      "description": "NutriRate is an app that uses machine-learning to rate food based on their nutritional values, ranging from A to D.\n\nOur team made our app with the vision of raising Indonesia’s public awareness of the healthiness of items they are consuming, by simplifying nutritional values into grades.",
+      "description": "NutriRate is an app that uses machine-learning to rate food based on their nutritional values, ranging from A to D.\n\nOur team made our app with the vision of raising Indonesia's public awareness of the healthiness of items they are consuming, by simplifying nutritional values into grades.",
       "category": "Mobile Application",
+      "image": "/src/assets/projects/nutrirate.png",
       "status": "completed",
       "technologies": [
         "Kotlin",

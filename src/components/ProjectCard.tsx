@@ -63,9 +63,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, isCompact = false })
 
   return (
     <div className="bg-white dark:bg-gray-900/50 dark:backdrop-blur-sm rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-gray-200 dark:border-gray-800 hover:border-amber-400/30 dark:hover:border-amber-400/30 animate-fade-in-up">
-      {/* Project Image Placeholder */}
-      <div className="h-48 bg-gray-100 dark:bg-gradient-to-br dark:from-amber-400/20 dark:to-yellow-300/20 flex items-center justify-center border-b border-gray-200 dark:border-gray-800 relative text-gray-400 dark:text-white">
-        {getCategoryIcon(project.category)}
+      {/* Project Image */}
+      <div className="h-48 bg-gray-100 dark:bg-gradient-to-br dark:from-amber-400/20 dark:to-yellow-300/20 flex items-center justify-center border-b border-gray-200 dark:border-gray-800 relative text-gray-400 dark:text-white overflow-hidden">
+        {project.image ? (
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+          />
+        ) : (
+          getCategoryIcon(project.category)
+        )}
         {project.featured && (
           <div className="absolute top-3 right-3">
             <Star className="text-amber-500 dark:text-amber-400 fill-amber-500 dark:fill-amber-400" size={20} />

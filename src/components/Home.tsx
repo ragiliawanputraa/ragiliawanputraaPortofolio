@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   return (
     <section id="home" className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-gray-900 dark:via-black dark:to-gray-900 flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-6 animate-fade-in-up">
             <div className="space-y-4">
@@ -52,14 +52,14 @@ const Home: React.FC = () => {
           {/* Profile Picture */}
           <div className="flex justify-center animate-fade-in-right">
             <div className="relative group">
-              <div className="w-96 h-96 bg-gradient-to-br from-amber-400/10 to-yellow-300/10 dark:from-amber-400/20 dark:to-yellow-300/20 rounded-full flex items-center justify-center shadow-2xl border border-amber-400/20 dark:border-amber-400/30 overflow-hidden transition-all duration-300 group-hover:shadow-xl group-hover:border-amber-400/50 dark:group-hover:shadow-amber-400/20">
+              <div className="w-72 h-72 md:w-96 md:h-96 bg-gradient-to-br from-amber-400/10 to-yellow-300/10 dark:from-amber-400/20 dark:to-yellow-300/20 rounded-full flex items-center justify-center shadow-2xl border border-amber-400/20 dark:border-amber-400/30 overflow-hidden transition-all duration-300 group-hover:shadow-xl group-hover:border-amber-400/50 dark:group-hover:shadow-amber-400/20">
                 <img 
                   src={profileImage} 
                   alt="Ragiliawan Putra Rencana" 
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-to-br from-amber-400 to-yellow-300 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+              <div className="absolute -bottom-4 -right-4 w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-amber-400 to-yellow-300 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
                 <Code size={32} className="text-gray-900" />
               </div>
             </div>
