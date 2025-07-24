@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Download, FileText, AlertCircle } from 'lucide-react';
 
 // Path untuk file CV di folder public
-const CV_PDF_PATH = '/RAGILIAWAN_PUTRA_RENCANA_CV.pdf';
+const CV_PDF_PATH = '/RagiliawanPutra_CV.pdf';
 
 const CVPage: React.FC = () => {
   const [pdfError, setPdfError] = useState(false);
