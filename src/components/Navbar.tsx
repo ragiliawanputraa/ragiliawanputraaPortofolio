@@ -24,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, currentPage, onNavigate 
   const themeContext = useContext(ThemeContext);
 
   if (!themeContext) {
-    throw new Error("ThemeContext must be used within a ThemeProvider");
+    throw new Error("ThemeContext nya error nih");
   }
 
   const { theme, setTheme } = themeContext;
@@ -39,12 +39,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, currentPage, onNavigate 
     { name: 'Projects', id: 'projects', icon: Code, page: 'projects' },
     { name: 'Certification', id: 'certification', icon: Award, page: 'certifications' },
     { name: 'Contact', id: 'contact', icon: Phone, page: 'main' },
-    {
-      id: 'cv',
-      name: 'Curriculum Vitae',
-      page: 'cv',
-      icon: Award,
-    },
+    { id: 'cv',name: 'Curriculum Vitae',page: 'cv',icon: Award,},
   ];
 
   useEffect(() => {
